@@ -14,8 +14,7 @@ The deployment is designed as a fraud-screening prototype. It should not be trea
 
 ```text
 .
-├── fraud_detection.ipynb       # Data exploration and fraud-analysis work
-├── ML.ipynb                    # Model training, evaluation, and artifact creation
+├── fraud_detection.ipynb       # Data exploration, fraud-analysis work and models training
 ├── models/                     # Saved model, scaler, and metadata artifacts
 ├── reports/                    # Evaluation reports and deployment monitoring output
 ├── fraud_deployment/
