@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+data/
+notebooks/
+tests/__pycache__/
+.git/
+.gitignore
+*.zip

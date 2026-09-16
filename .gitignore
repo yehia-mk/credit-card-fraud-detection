@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter and experiment output
+.ipynb_checkpoints/
+lightning_logs/
+tensorboard/
+
+# Raw and generated data
+data/
+fraud_deployment/data/
+**/prediction_log.csv
+*.tmp
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/

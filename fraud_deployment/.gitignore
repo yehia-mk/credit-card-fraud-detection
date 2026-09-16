@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Local secrets
+.env
+.env.*
+
+# Large/raw datasets
+data/
+*.csv
+*.zip
+
+# Local training outputs / logs
+lightning_logs/
+tensorboard/
+*.log
+
+# Keep deployment model artifacts only if your team decides they are
+# appropriate to publish. Never commit API keys or secrets.
+# models/*.joblib
