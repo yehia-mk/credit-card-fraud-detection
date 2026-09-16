@@ -8,6 +8,8 @@ The project trains and evaluates machine-learning models on anonymized credit-ca
 
 The deployment is designed as a fraud-screening prototype. It should not be treated as a certified banking authorization or production financial decision system.
 
+**Live application:** [Open the Streamlit app](https://credit-card-fraud-detection-m6bnc6drabqmgwugdfk4wd.streamlit.app/)
+
 ## Repository Structure
 
 ```text
