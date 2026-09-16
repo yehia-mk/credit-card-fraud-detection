@@ -104,7 +104,3 @@ The model uses `V1` through `V28` and `Log_Amount`. The app derives `Log_Amount`
 Raw datasets, generated prediction logs, notebook checkpoints, training logs, virtual environments, and Python cache files are excluded from version control. Model artifacts and static evaluation reports may be committed when they are required to reproduce the deployment.
 
 Before publishing, review `git status` and confirm that no credentials, `.env` files, or large raw datasets are staged.
-
-## License
-
-Add the project team's chosen license before public distribution.
