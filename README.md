@@ -73,6 +73,21 @@ python -m pytest tests -q
 
 The tests check artifact availability, model compatibility, metadata fields, feature preparation, and valid probability output.
 
+## Deploy with Streamlit Community Cloud
+
+The repository is ready to deploy from [Streamlit Community Cloud](https://share.streamlit.io/):
+
+1. Sign in with the GitHub account that owns the repository.
+2. Select **New app**.
+3. Choose repository `yehia-mk/credit-card-fraud-detection`.
+4. Select branch `main`.
+5. Set **Main file path** to `fraud_deployment/app.py`.
+6. Select **Deploy**.
+
+The root `requirements.txt` installs the runtime dependencies used by the nested Streamlit app. The model artifacts required at startup are already committed under `fraud_deployment/models/`.
+
+After deployment, Streamlit will provide a public app URL. Keep the repository private if the model artifacts or project data should not be publicly accessible.
+
 ## Model Artifacts
 
 The application expects these files in `fraud_deployment/models/`:
